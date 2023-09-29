@@ -13,7 +13,7 @@ streamlit.dataframe(fruits_to_show)
 
 import requests
 frutyvice_response=requests.get("https://fruityvice.com/api/fruit/watermelon")
-stremlit.text(frutyvice_response.json())
+streamlit.text(frutyvice_response.json())
 
 
 
