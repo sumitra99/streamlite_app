@@ -5,7 +5,7 @@ import streamlit
 #streamlit.text('yeah, soup 🥣')
 
 with streamlit.form(key="form1")
-name=steamlit.text_input(label= "enter name")
+name=streamlit.text_input(label= "enter name")
 
 import pandas
 my_fruit_list=pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt") 
