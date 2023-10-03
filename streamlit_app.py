@@ -4,7 +4,7 @@ import streamlit
 #streamlit.text('had ur breakfast')
 #streamlit.text('yeah, soup 🥣')
 
-
+with streamlit.form(key="form1")
 name=steamlit.text_input(label= "enter name")
 
 import pandas
