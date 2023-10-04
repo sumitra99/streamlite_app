@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-st.title("APPLICATION")
+st.title("EXCEL DATA")
 #df=pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 #st.write(df)
 
-st.sidebar.header("options")
+st.sidebar.header("APPLICATION ")
 options_form = st.sidebar.form("options_form")
 user_name=options_form.text_input("Name")
 user_age=options_form.text_input("Age")
