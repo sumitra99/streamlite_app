@@ -1,2 +1,2 @@
-import streamlit
-name=steamlit.text_input(label= enter name)
+import streamlit as st
+name=st.text_input(label="enter name"):
