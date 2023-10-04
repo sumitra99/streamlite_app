@@ -12,6 +12,6 @@ add_data=options_form.form_submit_button()
 if add_data:
   #st.write(user_name,user_age)
   new_data={"name":user_name, "age":int(user_age)}
-  st.write(new_data)
+ #st.write(new_data)
   df=df.append(new_data,ignore_index=True)
   #st.write(df)
