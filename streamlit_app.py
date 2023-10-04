@@ -1,11 +1,11 @@
-import streamlit
+import streamlit as st
 #streamlit.title('conversation')
 #streamlit.text('how r u ?')
 #streamlit.text('had ur breakfast')
 #streamlit.text('yeah, soup 🥣')
 
-with streamlit.form(key="form1"):
-name=streamlit.text_input(label="enter name")
+with st.form(key="form1"):
+name=st.text_input(label="enter name")
 
 import pandas
 my_fruit_list=pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt") 
