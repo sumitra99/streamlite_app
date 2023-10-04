@@ -14,4 +14,4 @@ if add_data:
   new_data={"name":user_name, "age":int(user_age)}
  #st.write(new_data)
   df=df.append(new_data,ignore_index=True)
-  #st.write(df)
+  st.write(df)
