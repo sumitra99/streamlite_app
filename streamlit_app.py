@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 st.title("EXCEL DATA")
-df=pd.dataframe()
+#df=pd.dataframe()
 st.write(df)
 
 st.sidebar.header("APPLICATION ")
