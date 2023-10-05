@@ -11,7 +11,7 @@ user_serving_size=options_form.text_input("Serving_size")
 add_data=options_form.form_submit_button()
 if add_data:
   st.write(user_fruit,user_serving_size)
-  new_data={"name":user_fruit, "age":int(user_serving_size)}
+  new_data={"fruit":user_fruit, "serving_size":int(user_serving_size)}
   st.write(new_data)
   df=df.append(new_data,ignore_index=True)
   st.write(df)
