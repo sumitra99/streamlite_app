@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 st.title("EXCEL DATA")
-df=pd.dataframe({'Name':[aa,aa]'Age':[11,22]})
+df=pd.dataframe({'Name':["aa","aa"]'Age':[11,22]})
 st.write(df)
 
 st.sidebar.header("APPLICATION ")
