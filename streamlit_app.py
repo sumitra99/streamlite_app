@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
 st.title("EXCEL DATA")
-df=pd.read_csv("https://github.com/plotly/datasets/raw/master/uber-rides-data1.csv")
+df=pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 #st.write(df)
 
 
 st.sidebar.header("APPLICATION ")
 options_form = st.sidebar.form("options_form")
 user_name=options_form.text_input("name")
-user_age=options_form.text_input("age")
+user_age=options_form.age_input("age")
 add_data=options_form.form_submit_button()
 if add_data:
   st.write(user_name,user_age)
