@@ -6,8 +6,8 @@ st.write(df)
 
 st.sidebar.header("APPLICATION ")
 options_form = st.sidebar.form("options_form")
-user_name=options_form.text_input("Fruit")
-user_age=options_form.text_input("Serving_size")
+user_fruit=options_form.text_input("Fruit")
+user_serving_size=options_form.text_input("Serving_size")
 add_data=options_form.form_submit_button()
 if add_data:
   st.write(user_fruit,user_serving_size)
