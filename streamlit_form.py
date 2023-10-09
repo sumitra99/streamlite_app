@@ -1,6 +1,9 @@
 import streamlit as st
 st.title("Form")
-slider_val=st.slider("form slider")
-submitted=form_submit_button("submit")
+
+with st.form(key='form1'):
+name=st.text_input("Name")
+#slider_val=st.slider("form slider")
+submitted=st.form_submit_button()
 
 
