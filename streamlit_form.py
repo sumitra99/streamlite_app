@@ -5,4 +5,4 @@ sepal_w = st.slider('Sepal width (cm)', 2.0, 4.4, 0.5)
 
 st.form(key='form1')
 name=st.text_input("Name")
-#submit_button=st.form_submit_button(label='signup')
+submit_button=st.submit_button(label='signup')
