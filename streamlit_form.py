@@ -8,4 +8,6 @@ name=st.text_input("Name")
 #submit_button=st.form_submit_button(label='signup')
 def click_button():
     st.session_state.button = not st.session_state.button
+def click_button():
+    st.session_state.button = not st.session_state.button
 st.button('Click me', on_click=click_button)
